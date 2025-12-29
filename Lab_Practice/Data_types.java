@@ -4,6 +4,7 @@ public class Data_types{
 		//here we are declaring the variables for school enrollment details
 
 		int roll_no , pay_form_no;
+		float balance;
 		double amt_paid , scholarship_amt;
 		boolean paid;
 		
@@ -14,6 +15,7 @@ public class Data_types{
 		amt_paid = 350000;
 		scholarship_amt = 150000;
 		paid = true;
+		balance = 15.2f;
  
 		//printing the details to the user
 
@@ -22,5 +24,6 @@ public class Data_types{
 		System.out.println("amt_paid: " + amt_paid);
 		System.out.println("scholarship_amt: " + scholarship_amt);
 		System.out.println("Is the amount paid : " + paid);
+		System.out.println("Balance amount : " + balance);
 	}
 }
